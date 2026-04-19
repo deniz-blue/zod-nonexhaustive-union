@@ -1,0 +1,26 @@
+{
+	"name": "zod-nonexhaustive-union",
+	"version": "0.0.1",
+	"type": "module",
+	"author": "deniz.blue",
+	"keywords": [],
+	"files": [
+		"/dist"
+	],
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"publishConfig": {
+		"main": "dist/src/index.js",
+		"types": "dist/src/index.d.ts"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"typescript": "^5.6.3"
+	},
+	"peerDependencies": {
+		"zod": "^4"
+	}
+}
